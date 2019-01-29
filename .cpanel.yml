@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tapestrytool/public_html/staging.tapestry-tool.com
+    - /bin/cp -R images $DEPLOYPATH/images
